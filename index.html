@@ -1,238 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru" class="no-touch">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165035126-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165035126-1");
+    </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      description="Бесплатный мастер класс КРИПТО ИНВЕСТОР с нуля. Как покупать, вкладывать и получать доход на крипто активах. Онлайн обучение"
+    />
+    <meta
+      keywords="Бесплатный,мастер класс,КРИПТО,ИНВЕСТОР,покупать,вкладывать,доход,крипто актив,онлайн,обучение,курс,практикум,семинар,школа,биткоин,биток,токены"
+    />
+
     <title>КРИПТО ИНВЕСТОР с нуля</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
     <link href="./fa/css/all.css" rel="stylesheet" />
-    <style id="fit-vids-style">
-      .fluid-width-video-wrapper {
-        width: 100%;
-        position: relative;
-        padding: 0;
-      }
-      .fluid-width-video-wrapper iframe,
-      .fluid-width-video-wrapper object,
-      .fluid-width-video-wrapper embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+    <script
+      src="//web.webformscr.com/apps/fc3/build/loader.js"
+      sp-form-id="12c6cba059dfd99b961aa0039ff8b4a2cce542c146aba4fb370a7bcbc50055a8"
+    ></script>
+    <script
+      src="//web.webformscr.com/apps/fc3/build/loader.js"
+      sp-form-id="facb4f4fc9bc49cfba041e3ecc20ab7eee7eaed04706cc27e89aac798e22d788"
+    ></script>
     <style type="text/css">
-      /*
- * contextMenu.js v 1.4.0
- * Author: Sudhanshu Yadav
- * s-yadav.github.com
- * Copyright (c) 2013 Sudhanshu Yadav.
- * Dual licensed under the MIT and GPL licenses
-**/
-
-      .iw-contextMenu {
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1) !important;
-        border: 1px solid #c8c7cc !important;
-        border-radius: 11px !important;
-        display: none;
-        z-index: 1000000132;
-        max-width: 300px !important;
-        width: auto !important;
-      }
-
-      .dark-mode .iw-contextMenu,
-      .TnITTtw-dark-mode.iw-contextMenu,
-      .TnITTtw-dark-mode .iw-contextMenu {
-        border-color: #747473 !important;
-      }
-
-      .iw-cm-menu {
-        background: #fff !important;
-        color: #000 !important;
-        margin: 0px !important;
-        padding: 0px !important;
-        overflow: visible !important;
-      }
-
-      .dark-mode .iw-cm-menu,
-      .TnITTtw-dark-mode.iw-cm-menu,
-      .TnITTtw-dark-mode .iw-cm-menu {
-        background: #525251 !important;
-        color: #fff !important;
-      }
-
-      .iw-curMenu {
-      }
-
-      .iw-cm-menu li {
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-          Helvetica, Arial, Ubuntu, sans-serif !important;
-        list-style: none !important;
-        padding: 10px !important;
-        padding-right: 20px !important;
-        border-bottom: 1px solid #c8c7cc !important;
-        font-weight: 400 !important;
-        cursor: pointer !important;
-        position: relative !important;
-        font-size: 14px !important;
-        margin: 0 !important;
-        line-height: inherit !important;
-        border-radius: 0 !important;
-        display: block !important;
-      }
-
-      .dark-mode .iw-cm-menu li,
-      .TnITTtw-dark-mode .iw-cm-menu li {
-        border-bottom-color: #747473 !important;
-      }
-
-      .iw-cm-menu li:first-child {
-        border-top-left-radius: 11px !important;
-        border-top-right-radius: 11px !important;
-      }
-
-      .iw-cm-menu li:last-child {
-        border-bottom-left-radius: 11px !important;
-        border-bottom-right-radius: 11px !important;
-        border-bottom: none !important;
-      }
-
-      .iw-mOverlay {
-        position: absolute !important;
-        width: 100% !important;
-        height: 100% !important;
-        top: 0px !important;
-        left: 0px !important;
-        background: #fff !important;
-        opacity: 0.5 !important;
-      }
-
-      .iw-contextMenu li.iw-mDisable {
-        opacity: 0.3 !important;
-        cursor: default !important;
-      }
-
-      .iw-mSelected {
-        background-color: #f6f6f6 !important;
-      }
-
-      .dark-mode .iw-mSelected,
-      .TnITTtw-dark-mode .iw-mSelected {
-        background-color: #676766 !important;
-      }
-
-      .iw-cm-arrow-right {
-        width: 0 !important;
-        height: 0 !important;
-        border-top: 5px solid transparent !important;
-        border-bottom: 5px solid transparent !important;
-        border-left: 5px solid #000 !important;
-        position: absolute !important;
-        right: 5px !important;
-        top: 50% !important;
-        margin-top: -5px !important;
-      }
-
-      .dark-mode .iw-cm-arrow-right,
-      .TnITTtw-dark-mode .iw-cm-arrow-right {
-        border-left-color: #fff !important;
-      }
-
-      .iw-mSelected > .iw-cm-arrow-right {
-      }
-
-      /*context menu css end */
-    </style>
-    <style type="text/css">
-      @-webkit-keyframes load4 {
-        0%,
-        100% {
-          box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em,
-            -2em -2em 0 0;
-        }
-        12.5% {
-          box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em,
-            0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
-        }
-        25% {
-          box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0,
-            0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
-        }
-        37.5% {
-          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0,
-            2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em,
-            -2em -2em 0 -1em;
-        }
-        50% {
-          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em,
-            2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em,
-            -2em -2em 0 -1em;
-        }
-        62.5% {
-          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0,
-            -2em -2em 0 -1em;
-        }
-        75% {
-          box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em,
-            -2em -2em 0 0;
-        }
-        87.5% {
-          box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0,
-            -2em -2em 0 0.2em;
-        }
-      }
-
-      @keyframes load4 {
-        0%,
-        100% {
-          box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em,
-            -2em -2em 0 0;
-        }
-        12.5% {
-          box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em,
-            0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
-        }
-        25% {
-          box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0,
-            0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
-        }
-        37.5% {
-          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0,
-            2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em,
-            -2em -2em 0 -1em;
-        }
-        50% {
-          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em,
-            2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em,
-            -2em -2em 0 -1em;
-        }
-        62.5% {
-          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0,
-            -2em -2em 0 -1em;
-        }
-        75% {
-          box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em,
-            -2em -2em 0 0;
-        }
-        87.5% {
-          box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em,
-            2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0,
-            -2em -2em 0 0.2em;
-        }
-      }
-    </style>
-    <style type="text/css">
-      /* This is not a zero-length file! */
       p {
         font-size: 22px;
       }
@@ -290,9 +96,9 @@
               border-radius: 8px;
               -moz-border-radius: 8px;
               -webkit-border-radius: 8px;
-              border-color: #dddddd;
+              border-color: rgba(227, 43, 64, 1);
               border-style: solid;
-              border-width: 1px;
+              border-width: 2px;
               font-family: inherit;
               background-repeat: no-repeat;
               background-position: center;
@@ -365,7 +171,7 @@
               sp-hash="12c6cba059dfd99b961aa0039ff8b4a2cce542c146aba4fb370a7bcbc50055a8"
               sp-lang="ru"
               class="sp-form sp-form-regular sp-form-embed"
-              sp-show-options="%7B%22satellite%22%3Afalse%2C%22maDomain%22%3A%22login.sendpulse.com%22%2C%22formsDomain%22%3A%22forms.sendpulse.com%22%2C%22condition%22%3A%22onEnter%22%2C%22scrollTo%22%3A25%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22rgba(0%2C%200%2C%200%2C%200.5)%22%2C%22position%22%3A%22bottom-right%22%2C%22animation%22%3A%22%22%2C%22hideOnMobile%22%3Afalse%2C%22urlFilter%22%3Afalse%2C%22urlFilterConditions%22%3A%5B%7B%22force%22%3A%22hide%22%2C%22clause%22%3A%22contains%22%2C%22token%22%3A%22%22%7D%5D%2C%22analytics%22%3A%7B%22ga%22%3A%7B%22eventLabel%22%3A%22%D0%A4%D0%BE%D1%80%D0%BC%D0%B0_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE_%D0%98%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%BE%D1%80%22%2C%22send%22%3Afalse%7D%2C%22ym%22%3A%7B%22counterId%22%3Anull%2C%22eventLabel%22%3Anull%2C%22targetId%22%3Anull%2C%22send%22%3Afalse%7D%7D%7D"
+              sp-show-options="%7B%22satellite%22%3Afalse%2C%22maDomain%22%3A%22login.sendpulse.com%22%2C%22formsDomain%22%3A%22forms.sendpulse.com%22%2C%22condition%22%3A%22onEnter%22%2C%22scrollTo%22%3A25%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22rgba(0%2C%200%2C%200%2C%200.5)%22%2C%22position%22%3A%22bottom-right%22%2C%22animation%22%3A%22%22%2C%22hideOnMobile%22%3Afalse%2C%22urlFilter%22%3Afalse%2C%22urlFilterConditions%22%3A%5B%7B%22force%22%3A%22hide%22%2C%22clause%22%3A%22contains%22%2C%22token%22%3A%22%22%7D%5D%2C%22analytics%22%3A%7B%22ga%22%3A%7B%22eventLabel%22%3A%22%D0%A4%D0%BE%D1%80%D0%BC%D0%B0_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE_%D0%98%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%BE%D1%80_TOP%22%2C%22send%22%3Afalse%7D%2C%22ym%22%3A%7B%22counterId%22%3A62454688%2C%22eventLabel%22%3Anull%2C%22targetId%22%3A%22subs-top-form%22%2C%22send%22%3Atrue%7D%7D%7D"
             >
               <div class="sp-form-fields-wrapper">
                 <div class="sp-message">
@@ -373,7 +179,7 @@
                 </div>
                 <form
                   novalidate=""
-                  class="sp-element-container ui-sortable ui-droppable sp-field-nolabel"
+                  class="sp-element-container ui-sortable ui-droppable sp-field-nolabel sp-lg"
                 >
                   <div
                     class="sp-field"
@@ -424,10 +230,14 @@
                     <div style="font-family: inherit; line-height: 1.2;">
                       <p style="text-align: center;">&nbsp;</p>
                       <p style="text-align: center;">
-                        Нажимая кнопку «Записаться», вы&nbsp;даете согласие
-                        на&nbsp;обработку&nbsp;<a
-                          href="http://lp.fofanov.pro/conf"
-                          >персональных данных</a
+                        <span style="font-size: 12px;"
+                          >Нажимая кнопку «Записаться», вы&nbsp;даете согласие
+                          на&nbsp;обработку&nbsp;<a
+                            href="../../../../../conf.html"
+                            target="_blank"
+                            rel="noopener"
+                            >персональных данных</a
+                          ></span
                         >
                       </p>
                     </div>
@@ -538,7 +348,7 @@
           <i class="fas fa-chart-line"></i>
           <p>
             Как многократно увеличить свой капитал с помощью венчурного
-            инвестирования;
+            инвестирования
           </p>
         </div>
         <div>
@@ -632,9 +442,9 @@
                     border-radius: 8px;
                     -moz-border-radius: 8px;
                     -webkit-border-radius: 8px;
-                    border-color: #dddddd;
+                    border-color: rgba(227, 43, 64, 1);
                     border-style: solid;
-                    border-width: 1px;
+                    border-width: 2px;
                     font-family: inherit;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -708,7 +518,7 @@
                     sp-hash="facb4f4fc9bc49cfba041e3ecc20ab7eee7eaed04706cc27e89aac798e22d788"
                     sp-lang="ru"
                     class="sp-form sp-form-regular sp-form-embed"
-                    sp-show-options="%7B%22satellite%22%3Afalse%2C%22maDomain%22%3A%22login.sendpulse.com%22%2C%22formsDomain%22%3A%22forms.sendpulse.com%22%2C%22condition%22%3A%22onEnter%22%2C%22scrollTo%22%3A25%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22rgba(0%2C%200%2C%200%2C%200.5)%22%2C%22position%22%3A%22bottom-right%22%2C%22animation%22%3A%22%22%2C%22hideOnMobile%22%3Afalse%2C%22urlFilter%22%3Afalse%2C%22urlFilterConditions%22%3A%5B%7B%22force%22%3A%22hide%22%2C%22clause%22%3A%22contains%22%2C%22token%22%3A%22%22%7D%5D%2C%22analytics%22%3A%7B%22ga%22%3A%7B%22eventLabel%22%3A%22%D0%A4%D0%BE%D1%80%D0%BC%D0%B0_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE_%D0%98%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%BE%D1%80%22%2C%22send%22%3Afalse%7D%2C%22ym%22%3A%7B%22counterId%22%3Anull%2C%22eventLabel%22%3Anull%2C%22targetId%22%3Anull%2C%22send%22%3Afalse%7D%7D%7D"
+                    sp-show-options="%7B%22satellite%22%3Afalse%2C%22maDomain%22%3A%22login.sendpulse.com%22%2C%22formsDomain%22%3A%22forms.sendpulse.com%22%2C%22condition%22%3A%22onEnter%22%2C%22scrollTo%22%3A25%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22rgba(0%2C%200%2C%200%2C%200.5)%22%2C%22position%22%3A%22bottom-right%22%2C%22animation%22%3A%22%22%2C%22hideOnMobile%22%3Afalse%2C%22urlFilter%22%3Afalse%2C%22urlFilterConditions%22%3A%5B%7B%22force%22%3A%22hide%22%2C%22clause%22%3A%22contains%22%2C%22token%22%3A%22%22%7D%5D%2C%22analytics%22%3A%7B%22ga%22%3A%7B%22eventLabel%22%3A%22%D0%A4%D0%BE%D1%80%D0%BC%D0%B0_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE_%D0%98%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%BE%D1%80%22%2C%22send%22%3Afalse%7D%2C%22ym%22%3A%7B%22counterId%22%3A62454688%2C%22eventLabel%22%3Anull%2C%22targetId%22%3A%22subs-bottom-form%22%2C%22send%22%3Atrue%7D%7D%7D"
                   >
                     <div class="sp-form-fields-wrapper">
                       <div class="sp-message">
@@ -716,7 +526,7 @@
                       </div>
                       <form
                         novalidate=""
-                        class="sp-element-container ui-sortable ui-droppable sp-field-nolabel"
+                        class="sp-element-container ui-sortable ui-droppable sp-field-nolabel sp-lg"
                       >
                         <div
                           class="sp-field"
@@ -806,8 +616,11 @@
       <div class="row-flex">
         <div>
           <p>
-            Политика конфиденциальности | Служба поддержки:
-            info@cryptoinvestor.study
+            <a href="/conf.html" target="_blank">Политика конфиденциальности</a>
+            | Служба поддержки:
+            <a href="mailto:info@cryptoinvestor.study"
+              >info@cryptoinvestor.study</a
+            >
           </p>
         </div>
         <div>
@@ -815,19 +628,47 @@
         </div>
       </div>
     </div>
-    <script src="./assets/jquery-min.js.download"></script>
-    <script>
-      window.jQuery ||
-        document.write('<script src="./assets/jquery.min.js"><\/script>');
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets/main.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(62454688, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
     </script>
-    <script src="./assets/main.js.download"></script>
-    <script
-      src="//web.webformscr.com/apps/fc3/build/loader.js"
-      sp-form-id="facb4f4fc9bc49cfba041e3ecc20ab7eee7eaed04706cc27e89aac798e22d788"
-    ></script>
-    <script
-      src="//web.webformscr.com/apps/fc3/build/loader.js"
-      sp-form-id="12c6cba059dfd99b961aa0039ff8b4a2cce542c146aba4fb370a7bcbc50055a8"
-    ></script>
+    <noscript>
+      <div>
+        <img
+          src="https://mc.yandex.ru/watch/62454688"
+          style="position: absolute; left: -9999px;"
+          alt=""
+        />
+      </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
   </body>
 </html>
