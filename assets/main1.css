@@ -368,12 +368,12 @@ ul {
 .intro-section {
   background-position: center -60px;
   background-repeat: no-repeat;
-  padding-top: 34px;
-  padding-bottom: 170px;
-  height: 1020px;
+  /* padding-top: 34px; */
+  /* padding-bottom: 170px; */
+  /* height: 1020px; */
 }
 .intro-section .row-flex > div {
-  width: calc(41.66666666666667% - 30px);
+  /* width: calc(41.66666666666667% - 30px); */
 }
 @media screen and (max-width: 1024px) {
   .timer-section .row-flex > div:last-child {
@@ -435,10 +435,10 @@ ul {
 .method-section {
   background-position: center 0;
   background-repeat: no-repeat;
-  padding-top: 90px;
+  /* padding-top: 90px; */
   /* height: 1608px; */
-  position: relative;
-  margin-top: -380px;
+  /* position: relative; */
+  /* margin-top: -380px; */
 }
 .method-section .row-flex-1 {
   margin-bottom: 2em;
@@ -559,7 +559,7 @@ ul {
 .traffic-section {
   background-position: center 0;
   background-repeat: no-repeat;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   /* height: 1514px; */
 }
 .traffic-section .h2 {
@@ -591,7 +591,7 @@ ul {
 .program-section {
   background-position: center 0;
   background-repeat: no-repeat;
-  padding-top: 200px;
+  padding-top: 50px;
   /* height: 2823px; */
   /* margin-top: -600px; */
   position: relative;

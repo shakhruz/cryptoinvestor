@@ -48,7 +48,7 @@
         <div class="row-flex timer-box is-countdown">
           <div class="timer-head-final timer-message">
             До окончания регистрации на специальных условиях осталось:
-            <span class="timer-box">1</span>
+            <span id="counter1" class="red-clr">1</span>
           </div>
         </div>
       </div>
@@ -88,12 +88,6 @@
             </p>
           </div>
         </div>
-        <p class="sm-visible">
-          <img
-            src="./assets/Nikita-Fofanov-intro-photo.jpg"
-            alt="Шахруз Аширов"
-          />
-        </p>
       </div>
     </div>
     <div class="method-section">
@@ -106,7 +100,7 @@
         <div class="row-flex row-flex-1">
           <div>
             <p>
-              <img src="./assets/top-sites.png" alt="Топ сайтов в России" />
+              <img src="./assets/markets2.jpg" alt="Топ сайтов в России" />
             </p>
           </div>
           <div>
@@ -171,21 +165,29 @@
                 дедок, как его еще называют давал следующие показатели роста:
               </p>
               <p>
-                2011 год: +1468%<br />
-                2012 год: +189%<br />
-                2013 год: +5429%<br />
-                2014 год: -56%<br />
-                2015 год: +34%<br />
-                2016 год: +125%<br />
-                2017 год: +1335%<br />
-                2018 год: -73%<br />
-                2019 год: +94%<br />
+                2011 год: <span class="green-clr">+1468%</span><br />
+                2012 год: <span class="green-clr">+189%</span><br />
+                2013 год: <span class="green-clr">+5429%</span><br />
+                2014 год: <span class="red-clr">-56%</span><br />
+                2015 год: <span class="green-clr">+34%</span><br />
+                2016 год: <span class="green-clr">+125%</span><br />
+                2017 год: <span class="green-clr">+1335%</span><br />
+                2018 год: <span class="red-clr">-73%</span><br />
+                2019 год: <span class="green-clr">+94%</span><br />
               </p>
               <p>
                 Просто сравните эти проценты с тем что дает вам банк…
               </p>
               <p>
                 И еще одна хорошая новость…
+              </p>
+            </div>
+            <div>
+              <p>
+                <img
+                  src="./assets/bitcoin_chart.jpg"
+                  alt="Никита Фофанов. Трафик в инфобизнес"
+                />
               </p>
             </div>
           </div>
@@ -197,10 +199,7 @@
         <div class="row-flex">
           <div>
             <p>
-              <img
-                src="./assets/Nikita-Fofanov-video.jpg"
-                alt="Никита Фофанов. Трафик в инфобизнес"
-              />
+              <img src="./assets/money_grow.jpg" alt="Деньги" />
             </p>
           </div>
           <div>
@@ -278,9 +277,6 @@
     <div class="program-section">
       <div class="wrapper">
         <div class="right-text">
-          <p class="h4">
-            Интенсивная 30-дневная виртуальная программа обучения
-          </p>
           <h1 class="h1">
             <span class="red-clr">КРИПТО ИНВЕСТОР</span> <br />с нуля
             <img
@@ -439,13 +435,13 @@
     </div>
     <div class="author-section">
       <div class="wrapper">
-        <h2 class="h2">
-          Автор и ведущий тренинга: <br /><span class="red-clr"
-            >Шахруз Аширов.</span
-          >
-        </h2>
         <div class="row-flex">
           <div>
+            <h2 class="h2">
+              Автор и ведущий тренинга: <br /><span class="red-clr"
+                >Шахруз Аширов.</span
+              >
+            </h2>
             <p>Профессиональный экономист-международник.</p>
             <p>
               Разработчик авторских программных продуктов и учебных курсов.
@@ -462,6 +458,11 @@
               экономиста-международника.
             </p>
             <p>Умеет доносить информацию просто, доходчиво и без воды.</p>
+          </div>
+          <div>
+            <p>
+              <img src="./assets/shakhruz1.jpg" alt="Шахруз Аширов" />
+            </p>
           </div>
         </div>
         <p class="sm-visible">
@@ -641,6 +642,7 @@
             <div class="row-flex timer-box is-countdown">
               <div class="timer-head-final timer-message">
                 До окончания регистрации на специальных условиях осталось:
+                <span id="counter2" class="red-clr">2</span>
               </div>
             </div>
           </div>
@@ -894,19 +896,82 @@
     <script src="./assets/main.js"></script>
 
     <script>
-      $(function () {
-        $(".timer-box").countdown({
-          until: new Date(2021, 1, 13, 23, 59, 59),
-          timezone: +5,
-          description:
-            '<div class="timer-head-start timer-message">До окончания регистрации на специальных условиях осталось:</div>',
-          expiryText:
-            '<div class="timer-head-final timer-message">Регистрации на специальных условиях окончена.</div>',
-          alwaysExpire: true,
-          layout:
-            '{desc} <div class="clock"><div>{dn} <span>{dl}</span></div><div>{hn} <span>{hl}</span></div><div>{mn} <span>{ml}</span></div><div>{sn} <span>{sl}</span></div></div>',
-        });
-      });
+      // Set the date we're counting down to
+      var countDownDate = new Date("May 1, 2020 23:55").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("counter1").innerHTML =
+          days +
+          "дней " +
+          hours +
+          "часов " +
+          minutes +
+          "минут " +
+          seconds +
+          "сек ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("counter1").innerHTML =
+            "Регистрация завершена";
+        }
+      }, 1000);
+    </script>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("May 1, 2020 23:55").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("counter2").innerHTML =
+          days +
+          "дней " +
+          hours +
+          "часов " +
+          minutes +
+          "минут " +
+          seconds +
+          "сек ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("counter2").innerHTML =
+            "Регистрация завершена";
+        }
+      }, 1000);
     </script>
   </body>
   <!-- Timer Options -->
