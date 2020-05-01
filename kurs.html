@@ -48,7 +48,7 @@
         <div class="row-flex timer-box is-countdown">
           <div class="timer-head-final timer-message">
             До окончания регистрации на специальных условиях осталось:
-            <span id="counter1" class="red-clr">1</span>
+            <span id="counter1" class="red-clr"></span>
           </div>
         </div>
       </div>
@@ -246,22 +246,20 @@
           Что конкретно вам даст умение торговать на крипто бирже?
         </h2>
         <div class="row-flex">
-          <div>
-            <ul>
-              <li>зарабатывать на торговле крипто активами</li>
-              <li>получать пассивный доход в виде дивидендов</li>
-              <li>получать пассивный доход от роста стоимости активов</li>
-              <li>безопасно, анонимно сохранять любые суммы денег</li>
-              <li>
-                переводить, перевозить любые суммы денег в любой город мира
-              </li>
-              <li>
-                рассчитываться с людьми анонимными безопасными крипто долларами
-                и крипто валютами
-              </li>
-              <li>передавать свои сбережения по наследству без посредников</li>
-            </ul>
-          </div>
+          <ul class="rectangle-list">
+            <li>Зарабатывать на торговле крипто активами</li>
+            <li>Получать пассивный доход в виде дивидендов</li>
+            <li>Получать пассивный доход от роста стоимости активов</li>
+            <li>Безопасно, анонимно сохранять любые суммы денег</li>
+            <li>
+              Переводить, перевозить любые суммы денег в любой город мира
+            </li>
+            <li>
+              Рассчитываться с людьми анонимными безопасными крипто долларами и
+              крипто валютами
+            </li>
+            <li>Передавать свои сбережения по наследству без посредников</li>
+          </ul>
         </div>
         <h2 class="h2">
           Вы хотите быстро стать <br /><span class="red-clr">
@@ -642,7 +640,7 @@
             <div class="row-flex timer-box is-countdown">
               <div class="timer-head-final timer-message">
                 До окончания регистрации на специальных условиях осталось:
-                <span id="counter2" class="red-clr">2</span>
+                <span id="counter2" class="red-clr"></span>
               </div>
             </div>
           </div>
@@ -897,7 +895,8 @@
 
     <script>
       // Set the date we're counting down to
-      var countDownDate = new Date("May 1, 2020 23:55").getTime();
+      // var countDownDate = new Date("May 5, 2020 23:55").getTime();
+      var countDownDate = new Date(Date.UTC(2020, 4, 5, 16, 0, 0)).getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function () {
@@ -917,14 +916,7 @@
 
         // Display the result in the element with id="demo"
         document.getElementById("counter1").innerHTML =
-          days +
-          "дней " +
-          hours +
-          "часов " +
-          minutes +
-          "минут " +
-          seconds +
-          "сек ";
+          days + "д " + hours + "ч " + minutes + "м " + seconds + "с ";
 
         // If the count down is finished, write some text
         if (distance < 0) {
@@ -936,7 +928,8 @@
     </script>
     <script>
       // Set the date we're counting down to
-      var countDownDate = new Date("May 1, 2020 23:55").getTime();
+      // var countDownDate = new Date("May 1, 2020 23:55").getTime();
+      var countDownDate = new Date(Date.UTC(2020, 4, 5, 16, 0, 0)).getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function () {
@@ -956,14 +949,7 @@
 
         // Display the result in the element with id="demo"
         document.getElementById("counter2").innerHTML =
-          days +
-          "дней " +
-          hours +
-          "часов " +
-          minutes +
-          "минут " +
-          seconds +
-          "сек ";
+          days + "д " + hours + "ч " + minutes + "м " + seconds + "с ";
 
         // If the count down is finished, write some text
         if (distance < 0) {

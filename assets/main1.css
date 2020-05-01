@@ -480,13 +480,13 @@ ul {
 }
 @media screen and (min-width: 769px) {
   .intro-section {
-    background-image: url(../assets/Nikita-Fofanov-intro.jpg);
+    /* background-image: url(../assets/Nikita-Fofanov-intro.jpg); */
   }
   .method-section {
     background-image: url(../assets/rectangle-pink.svg);
   }
   .method-section-2 {
-    background-image: url(../assets/yt-work.png);
+    /* background-image: url(../assets/yt-work.png); */
   }
 }
 @media screen and (max-width: 1140px) {
@@ -598,10 +598,10 @@ ul {
 }
 @media screen and (min-width: 961px) {
   .traffic-section {
-    background-image: url(../assets/Nikita-Fofanov-traf.jpg);
+    /* background-image: url(../assets/Nikita-Fofanov-traf.jpg); */
   }
   .program-section {
-    background-image: url(../assets/rectangle-gray.svg);
+    /* background-image: url(../assets/rectangle-gray.svg); */
   }
 }
 @media screen and (max-width: 960px) {
@@ -685,7 +685,7 @@ ul {
 }
 @media screen and (min-width: 769px) {
   .author-section {
-    background-image: url(../assets/Nikita-Fofanov-author.jpg);
+    /* background-image: url(../assets/Nikita-Fofanov-author.jpg); */
   }
 }
 .author-section .h2 {
